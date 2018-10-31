@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SQL Base</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+                <h1 class="name_scores">Fill the info about you</h1>
+                <div class="post_method">
+                        <input type="radio" id="patch"
+                            name="method" value="patch" checked>
+                        <label for="patch">Change your info (only if you know your ID in database)</label>
+                        <br>
+                        <input type="radio" id="post"
+                            name="method" value="post">
+                        <label for="post">Post a new item</label>
+                </div>
+                <form action="#" id="form" class>
+                    <input  type="number" 
+                            placeholder="id"
+                            class="id_input">
+                    <input  type="text" 
+                            placeholder="first name" 
+                            name="name"
+                            class="firstname_input">
+                    <input  type="text" 
+                            placeholder="second name" 
+                            class="secondname_input">
+                    <input  type="text" 
+                            placeholder="organization name" 
+                            class="orgname_input">
+                    <input  type="email" 
+                            placeholder="email" 
+                            class="email_input">
+                            
+                    <button id="btn">Add</button>
+                </form>
+                <div class="scores">
+                    <h2 class="scores_title">
+                        Check your info
+                    </h2>
+                    <ul class="scores_list">
+                    </ul>
+                </div>
+        </div>
+    </section>
+
+    <script src="js/script1.js"></script>
+</body>
+</html>
